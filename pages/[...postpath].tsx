@@ -18,8 +18,8 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					endpoint.replace(/(\/graphql\/)/, '/') + encodeURI(path as string)
-					http://alloverworld.42web.io/
+					endpoint.http://alloverworld.42web.io(/(\/graphql\/)/, '/') + encodeURI(path as string)
+					'http://alloverworld.42web.io/'
 				}`,
 			},
 		};
